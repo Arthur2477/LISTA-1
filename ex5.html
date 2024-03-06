@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const precoProducao = parseFloat(prompt("Informe o custo de produção do veículo:"));
+const taxaDistribuidor = parseFloat(prompt("Informe a taxa do distribuidor:"));
+const taxas = parseFloat(prompt("Informe o valor das taxas:"));
+const despesaDistribuidor = precoProducao * (taxaDistribuidor / 100);
+const precoFinal = precoProducao + despesaDistribuidor + taxas;
+document.write("O preço final do veículo é: ", precoFinal);
+
+
+    </script>
+</body>
+</html>
